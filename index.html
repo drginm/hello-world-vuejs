@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <p>{{ message }}</p>
+      <my-component>Ready!</my-component>
+      
+      <button v-on:click="getAppVersion">App Version {{version}}</button>
+    </div>
+  </body>
+  <script src="js/vue.js"></script>
+  <script src="js/CSInterface.js"></script>
+  <script src="js/main.js"></script>
+</html>
